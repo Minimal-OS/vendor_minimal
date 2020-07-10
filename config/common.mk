@@ -14,3 +14,7 @@
 
 # GSM
 $(call inherit-product, vendor/minimal/config/gsm.mk)
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/minimal/overlay/aosp
