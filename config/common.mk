@@ -18,3 +18,8 @@ $(call inherit-product, vendor/minimal/config/gsm.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/minimal/overlay/aosp
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
+# Version
+$(call inherit-product, vendor/minimal/config/version.mk)
