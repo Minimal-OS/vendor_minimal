@@ -4,4 +4,5 @@ PRODUCT_PACKAGES += \
     nano \
     vim
 
-# We need these to monitor system resources and edit system files.
+# Tinymix
+PRODUCT_PACKAGES += tinymix
